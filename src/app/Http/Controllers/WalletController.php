@@ -130,7 +130,7 @@ class WalletController extends Controller
     			*/
     			if ($account_privkey === $initLoginRet) { //we've found a match in the current addresses!
     				$initLoginRet = $account_address;
-    				$initLoginBalanceRet = $walletFunctions->getBalance($account_address);
+    				$initLoginBalanceRet = json_decode($walletFunctions->getBalance($account_label))->result;
     		
 		    		$transaction_array = array();	
 		    		foreach ($all_transactions as $transaction) {
