@@ -134,7 +134,7 @@ class WalletController extends Controller
     		
 		    		$transaction_array = array();	
 		    		foreach ($all_transactions as $transaction) {
-		    			if ($transaction->address == $initLoginRet)
+		    			if ($transaction->account == $account_label)
 		    				$transaction_array[] = $transaction;
 		    		}
 
