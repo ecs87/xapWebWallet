@@ -39,13 +39,20 @@
 	  		@endforeach
 	  	@endif
 	  </div>
-	  <div class="disclaimer" style="text-align: center;">
-	  	<i>Why does my address keep changing?!</i>
-	  	<p>
-	  		This is because each time you send or recieve a transaction, your address changes. 
-	  		This site will display your most current address (at the time).
-	  		Should you ever send from or recieve payments to an old address, the balance will be reflected on the new address, so no worries!
-	  	</p>
+	  <div class="disclaimer">
+	  	<ul>
+	  		<li><i>I keep getting "Recent TX: Transaction creation failed". Please help!!!!</i></li>
+		  	<p>
+		  		This may be the cause of too many transactions too quickly. Yes, I know it sounds lame, but give it a try and wait a few seconds
+		  		...well more like 30-60 seconds and try again. I bet it works!
+		  	</p>
+	  		<li><i>Why does my address keep changing?!</i></li>
+		  	<p>
+		  		This is because each time you send or recieve a transaction, your address changes. 
+		  		This site will display your most current address (at the time).
+		  		Should you ever send from or recieve payments to an old address, the balance will be reflected on the new address, so no worries!
+		  	</p>
+	  	</ul>
 	  </div>
 	</div>
 </div>
