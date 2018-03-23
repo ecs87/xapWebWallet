@@ -1,0 +1,33 @@
+.info-holder, .recent_transactions_wrapper {
+  padding: 20px;
+  box-sizing: border-box;
+  background: #d3e8ff;
+  border-radius: 5px;
+}
+.info-holder h4 {
+	margin: 0 0 10px 0;
+	word-wrap: break-word;
+}
+.info-holder h4:last-child, .transaction:last-child {
+	margin: 0;
+}
+.transactions-holder, .info-holder, .recent_transactions_wrapper {
+	margin: 0 0 20px 0;
+}
+.transaction {
+  background: #FFF;
+  padding: 10px;
+  margin: 0 0 20px 0;
+}
+.recent_transactions_wrapper {
+  max-height: 500px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.recent_tx {
+	display: inline;
+}
+.logo {
+	margin: 0 0 20px 0;
+	text-align: center;
+}
